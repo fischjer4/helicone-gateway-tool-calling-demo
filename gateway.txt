@@ -1,0 +1,2769 @@
+
+> helicone-gateway-tool-calling-demo@1.0.0 start:gateway /Users/jeremyfischer/Documents/test
+> tsx index.ts gateway
+
+{ type: 'start' }
+{ type: 'start-step', request: {}, warnings: [] }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'I',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' don',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '’t',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' have',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' live',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' access',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' from',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' here',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' so',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' I',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' can',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '’t',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' tell',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' you',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' the',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' current',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' I',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' can',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' either',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ':\n\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Give',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' a',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' quick',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' summary',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' of',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' San',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Francisco',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '’s',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' typical',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' micro',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'cl',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'imates',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' or',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Tell',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' you',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' how',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' to',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' check',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' the',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' current',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'forecast',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'sites',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' apps',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' or',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' a',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' quick',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' command',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '),',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' or',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Provide',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' a',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' climat',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'ological',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' forecast',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' for',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' a',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' specific',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' date',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' if',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' you',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' tell',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' me',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' when',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Quick',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' summary',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'typ',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'ical',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' San',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Francisco',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ')\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Climate',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ':',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' cool',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-s',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'ummer',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Mediterranean',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' with',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' strong',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' micro',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'cl',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'imates',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Coastal',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' areas',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' are',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' often',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' cool',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' fog',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'gy',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' in',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' summer',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ';',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' inland',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' pockets',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Dog',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'patch',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' So',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Ma',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Mission',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ')',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' are',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' warmer',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' sunn',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'ier',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Summer',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Jun',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Sep',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '):',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' relatively',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' cool',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' frequent',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' morning',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'af',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'ternoon',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' fog',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' near',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' the',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' coast',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ';',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' highs',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' often',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' ',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '60',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '70',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°F',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '15',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '21',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°C',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '),',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' lows',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' ',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '50',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '55',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°F',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '10',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '13',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°C',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ').\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Fall',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Sep',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Oct',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '):',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' often',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' the',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' warm',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'est',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' clearer',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' d',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'rier',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' —',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' highs',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' can',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' reach',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' mid',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'upper',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' ',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '60',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 's',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' to',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' low',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' ',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '70',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 's',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°F',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '18',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '22',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°C',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ')',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' in',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' warm',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' spots',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ';',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' evenings',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' cool',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Winter',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Nov',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Mar',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '):',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' mild',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' wetter',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' highs',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' around',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' mid',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '50',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 's',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' to',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' low',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '60',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 's',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°F',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '13',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '16',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°C',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '),',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' lows',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' mid',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '40',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 's',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' to',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' ',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '50',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°F',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '7',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '10',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '°C',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ');',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' most',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' rain',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' occurs',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Dec',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '–',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Feb',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Tips',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ':',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' always',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' bring',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' layers',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' a',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' wind',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'proof',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' jacket',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '—',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'conditions',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' can',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' change',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' quickly',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'How',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' to',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' get',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' current',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'quick',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' options',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ')\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Websites',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/apps',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ':',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.gov',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' (',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'N',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'WS',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '),',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.com',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Acc',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'u',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' or',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' the',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Google',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Apple',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Weather',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' apps',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' Quick',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' command',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-line',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/web',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'tip',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ':',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' open',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' https',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '://',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'wt',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'tr',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.in',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/S',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'an',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '%',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '20',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Franc',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'isco',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' or',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' run',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' curl',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' wt',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'tr',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.in',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/S',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'an',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '%',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '20',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Franc',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'isco',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '-',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' If',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' you',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' want',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ',',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' tell',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' me',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' “',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'right',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' now',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '”',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' or',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' give',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' a',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' date',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '/time',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' and',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' I',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '’ll',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' give',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' the',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' best',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' climat',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'ological',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' guidance',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' I',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' can',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '.\n\n',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: 'Which',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' would',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' you',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' like',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' me',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' to',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: ' do',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'text-delta',
+  id: 'text-0',
+  text: '?',
+  providerMetadata: undefined
+}
+{ type: 'error', error: 'text part text-0 not found' }
+{
+  type: 'finish-step',
+  finishReason: 'stop',
+  usage: { inputTokens: 30, outputTokens: 1040, totalTokens: 1070 },
+  providerMetadata: undefined,
+  response: {
+    id: 'aitxt-jwgYuKagzvy23KcFG8iJ8QAq',
+    timestamp: 2025-10-24T21:19:47.411Z,
+    modelId: 'gpt-5-mini',
+    headers: undefined
+  }
+}
+{
+  type: 'finish',
+  finishReason: 'stop',
+  totalUsage: {
+    inputTokens: 30,
+    outputTokens: 1040,
+    totalTokens: 1070,
+    reasoningTokens: undefined,
+    cachedInputTokens: undefined
+  }
+}
+⏱️  Request finished in 16.37s
+⏱️  Total duration: 16.39s
+✓ Request completed successfully!

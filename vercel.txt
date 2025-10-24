@@ -1,0 +1,923 @@
+
+> helicone-gateway-tool-calling-demo@1.0.0 start:gateway /Users/jeremyfischer/Documents/test
+> tsx index.ts gateway
+
+{ type: 'start' }
+{
+  type: 'start-step',
+  request: {
+    body: {
+      maxOutputTokens: undefined,
+      temperature: undefined,
+      topP: undefined,
+      topK: undefined,
+      presencePenalty: undefined,
+      frequencyPenalty: undefined,
+      stopSequences: undefined,
+      seed: undefined,
+      tools: undefined,
+      toolChoice: undefined,
+      responseFormat: undefined,
+      prompt: [Array],
+      providerOptions: [Object],
+      headers: undefined,
+      includeRawChunks: false
+    }
+  },
+  warnings: []
+}
+{
+  type: 'reasoning-start',
+  id: 'rs_0e0aa7f06e8c7c980168fbed9f48c4819c9ffce28b4f1e2f94:0',
+  providerMetadata: {
+    openai: {
+      itemId: 'rs_0e0aa7f06e8c7c980168fbed9f48c4819c9ffce28b4f1e2f94',
+      reasoningEncryptedContent: 'gAAAAABo--2fMOYr114TIKCfmXzhmvJPZYH4DU16lN7I42M1dnjq0RGsy82RX7qinCkYxKvA7Rw-4bGzk0K5iyAlpaGjrqIYTBv_viwuT_boCrNxJOwEESfrtglyxMDziuzgwko3l56fujZywMo1NF_4XSMaly52RoDSaUlKAxa2FNJW7dS0DYfo3M9dgpdYyVluvb4mkHzOemedo9nVlP-Ani5ZX8-8f4E33wTysaJZUo2XPpKDsyXAGZgw0ap24oNkcJsG1m_wEk2bC9vrpgHJWJ5F1yJw-HBHF3etqOUgm9xvkG0iFUD5hxGpzJ32xXSXKrgqzWSxNJEmFSjEfvfDDEpXocEiQwLA9K0NnCNA7f7btHelcaNU2dUn5RY1V6QDkFXWrNsB1seR2rrN8zAf1-SYRLJLY1ZA9pfiTepLsRmH8fpX7QQSTCuQJj1qRkALjA7-e6u6Boqy_4Mt9hlauDqH2GvtT6vmCVax8FvMnwetCKtL7a_1JLlhVHpv5_jBnU8zP0QGtWtMt1XmF3HFUTAKXxZp0UBZ8LYdGF3cGNQ-5buNlvUleVHfgjIbk1UNwCgh-SUkLxKzQGiiYLR5d2oTmUfUv2r-ZdczJRoKOM2GnNQWGOhSpMjQRyCfB_he36svGHLh7elOaqhUfR-J-nZ038xXTDbn6RlN1JZxlfWrmOwNZv2-DXHVOA46AwHhkDYw9BR3FkZ2pCzMXErLL7TFPBMPdtragj-7jfeyD9euI93H6LLY1rzQOz3lUsi51ZtdgzLuQI0BR_nGV1I-xhL2p5A1Qv_WAREgzNfa-GXcIxmV6iySW9ndF3LxTnfb9ed6xb5w8lbXDU9v2stALhXTYiBc-Q=='
+    }
+  }
+}
+{
+  type: 'reasoning-end',
+  id: 'rs_0e0aa7f06e8c7c980168fbed9f48c4819c9ffce28b4f1e2f94:0',
+  providerMetadata: {
+    openai: {
+      itemId: 'rs_0e0aa7f06e8c7c980168fbed9f48c4819c9ffce28b4f1e2f94',
+      reasoningEncryptedContent: 'gAAAAABo--2fPOmfJXLdZ2cxO6Sq80BcMJyDgrTQ-gJ_-CBFd5P71rH-RKRTN94TdWZsL-V29y20vET0ptN4KTqrqPNqA40H1wg7S2wH16tb0SwO1kr6y6oM1OAu0el9QoHQfD-uNeIqn5cpxSAwexDdAMCtWhmEB8gHMdJFItUx3h1BnWSZHrO_RUdc_hnMoCwzxGhForKo0VP7psdgRk6ymulZQix0jr6QJ7MWsk2wO2rqBNhDmVrGt_R5Gx7ds1DW0ZTwnHcqbwYEoqaybMd01ND-CWyFL9FLAXoTGMYVeroTBiy7zl_xPL-kdlva50ERo5IQkjQ7GRqC_GXov-N6MmiKlVdk75JnMHoVbqxExCwsRo6cqaUmcDhamRSloTl133p8-H4icwuYnimiJxcEJK4oIIpcL2SC_CwDw5GPujZ9rZ-wcViyxo08o2TKfyKEREmUMSPnLSgeWPIhZtv6AaSvYpXE-0Q-iy_aQa5luDejlL2WidxkGaGszUK9QO-6UVZM6IJGK_xI-liNFsSfDUCsjkK1omS5CbFIyGzmBfyXZHbZWiQA1pnegqfJU2B-PE6k4QyhJtq8O0mPscI29ipqMJpIAnODc_-uoEiZDpexn8yboayPhFxLN_iKpcOCao58r5Bh-D8QZTABK6843r1D70gxZ-yewTTgfHo1P0lJXUOLf3Edf3sZvbd09F6BgP4p9byGybzc8RRxsSPkDm4OQryx5uYf6nIG37wGZF794z2EKnILrwCK39MpgqwUrdm1os9-NfIyUwHMhSAr3O4Awn-4Au2Wj1QfLcsGJK2xjJqvTDTKF8wXo5o5quP3VbWtl50cTNEv5EE5Hhv3ngy8jajmnCeuONenH5FCY2yQbP8OtUtlM_OxzZCyijrxQkGjjThvtfhKfowuj2ldW62y91yhzw=='
+    }
+  }
+}
+{
+  type: 'text-start',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  providerMetadata: {
+    openai: {
+      itemId: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82'
+    }
+  }
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' don',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '’t',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' have',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' real',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '-time',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' access',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '.',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' To',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' give',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' an',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' accurate',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' current',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' forecast',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' for',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' San',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Francisco',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' can',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ':\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '-',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Look',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' up',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' live',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' if',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' allow',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' me',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' to',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' access',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' the',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' web',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' don',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '’t',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' have',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' browsing',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' enabled',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' here',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '),',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '-',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Show',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' how',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' to',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' check',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' quickly',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'recommended',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' sources',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '),',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '-',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Provide',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' typical',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '/cl',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'imat',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'ological',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' for',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' this',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' time',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' of',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' year',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '.\n\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'Which',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' would',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' prefer',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '?',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' If',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' want',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' the',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' current',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' now',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' tell',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' me',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' whether',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '’d',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' like',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' quick',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' list',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' of',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' reliable',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' sites',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '/apps',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' to',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' check',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'e',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '.g',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '.,',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' National',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Service',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '.com',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' Acc',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'u',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: 'Weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' smartphone',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' app',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ').',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' If',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' want',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' typical',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' tell',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' me',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' the',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' month',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: ' date',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82',
+  text: '.',
+  providerMetadata: undefined
+}
+{
+  type: 'text-end',
+  id: 'msg_0e0aa7f06e8c7c980168fbed9f8d08819ca6522cb66b87fe82'
+}
+{
+  type: 'finish-step',
+  finishReason: 'stop',
+  usage: {
+    inputTokens: 30,
+    outputTokens: 140,
+    totalTokens: 170,
+    reasoningTokens: 0,
+    cachedInputTokens: 0
+  },
+  providerMetadata: {
+    openai: {
+      responseId: 'resp_0e0aa7f06e8c7c980168fbed9ed54c819ca1cc328ca9b69bf6',
+      serviceTier: 'default'
+    },
+    gateway: {
+      routing: [Object],
+      cost: '0.0002875',
+      marketCost: '0.0002875',
+      generationId: 'gen_01K8C1GD0825SF9MTSE80N1590'
+    }
+  },
+  response: {
+    id: 'resp_0e0aa7f06e8c7c980168fbed9ed54c819ca1cc328ca9b69bf6',
+    timestamp: 2025-10-24T21:20:30.000Z,
+    modelId: 'gpt-5-mini-2025-08-07',
+    headers: {
+      'access-control-allow-headers': 'Content-Type, Authorization, ai-gateway-auth-method, ai-gateway-protocol-version, ai-model-id, ai-language-model-id, ai-language-model-specification-version, ai-language-model-streaming, http-referer, x-title',
+      'access-control-allow-methods': 'GET, POST, PUT, PATCH, DELETE, OPTIONS',
+      'access-control-allow-origin': '*',
+      'cache-control': 'public, max-age=0, must-revalidate',
+      date: 'Fri, 24 Oct 2025 21:20:30 GMT',
+      server: 'Vercel',
+      'strict-transport-security': 'max-age=63072000; includeSubDomains; preload',
+      'transfer-encoding': 'chunked',
+      vary: 'rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch',
+      'x-generation-id': 'gen_01K8C1GD0825SF9MTSE80N1590',
+      'x-matched-path': '/v1/ai/language-model',
+      'x-model-id': 'openai/gpt-5-mini',
+      'x-vercel-cache': 'MISS',
+      'x-vercel-id': 'pdx1::iad1::54zcd-1761340830683-4980a1b84448'
+    }
+  }
+}
+{
+  type: 'finish',
+  finishReason: 'stop',
+  totalUsage: {
+    inputTokens: 30,
+    outputTokens: 140,
+    totalTokens: 170,
+    reasoningTokens: 0,
+    cachedInputTokens: 0
+  }
+}
+⏱️  Request finished in 3.09s
+⏱️  Total duration: 3.11s
+✓ Request completed successfully!

@@ -1,0 +1,930 @@
+
+> helicone-gateway-tool-calling-demo@1.0.0 start:openai /Users/jeremyfischer/Documents/test
+> tsx index.ts openai
+
+{ type: 'start' }
+{
+  type: 'start-step',
+  request: {
+    body: {
+      model: 'gpt-5-mini',
+      input: [Array],
+      temperature: undefined,
+      top_p: undefined,
+      max_output_tokens: undefined,
+      max_tool_calls: undefined,
+      metadata: undefined,
+      parallel_tool_calls: undefined,
+      previous_response_id: undefined,
+      store: undefined,
+      user: undefined,
+      instructions: undefined,
+      service_tier: undefined,
+      include: undefined,
+      prompt_cache_key: undefined,
+      safety_identifier: undefined,
+      top_logprobs: undefined,
+      reasoning: [Object],
+      tools: undefined,
+      tool_choice: undefined
+    }
+  },
+  warnings: []
+}
+{
+  type: 'reasoning-start',
+  id: 'rs_079ef7d8c41126a30068fbeddbb8988197b8661bfd493050b2:0',
+  providerMetadata: {
+    openai: {
+      itemId: 'rs_079ef7d8c41126a30068fbeddbb8988197b8661bfd493050b2',
+      reasoningEncryptedContent: null
+    }
+  }
+}
+{
+  type: 'reasoning-end',
+  id: 'rs_079ef7d8c41126a30068fbeddbb8988197b8661bfd493050b2:0',
+  providerMetadata: {
+    openai: {
+      itemId: 'rs_079ef7d8c41126a30068fbeddbb8988197b8661bfd493050b2',
+      reasoningEncryptedContent: null
+    }
+  }
+}
+{
+  type: 'text-start',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  providerMetadata: {
+    openai: {
+      itemId: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744'
+    }
+  }
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' can',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' help',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' —',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' but',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' don',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '’t',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' have',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' real',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '‑',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'time',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' data',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '.',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' To',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' get',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' the',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' current',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' in',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' San',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Francisco',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' can',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ':\n\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '-',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Explain',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' how',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' to',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' check',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' quickly',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'web',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'sites',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' apps',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' phone',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ').\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '-',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Show',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' typical',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' climate',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' for',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' this',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' time',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' of',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' year',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'average',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' temps',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' precipitation',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ').\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '-',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' If',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' give',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' me',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' source',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' forecast',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' text',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' brief',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' conditions',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' link',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '),',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' I',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' can',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' interpret',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' it',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' and',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' explain',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' what',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' to',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' expect',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '.\n\n',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'Which',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' would',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' like',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '?',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' If',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' you',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' want',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' quick',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' real',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '‑',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'time',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' options',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ':',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' check',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' National',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Service',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '.gov',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '),',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' NOAA',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '.com',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Acc',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'u',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'Weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ',',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' ask',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' smart',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' assistant',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' (',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'S',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'iri',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '/',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: 'Google',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' Assistant',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ')',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' or',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' look',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' at',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' a',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' weather',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' app',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' on',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' your',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: ' phone',
+  providerMetadata: undefined
+}
+{
+  type: 'text-delta',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744',
+  text: '.',
+  providerMetadata: undefined
+}
+{
+  type: 'text-end',
+  id: 'msg_079ef7d8c41126a30068fbeddbd4f881978a28987adf81f744'
+}
+{
+  type: 'finish-step',
+  finishReason: 'stop',
+  usage: {
+    inputTokens: 30,
+    outputTokens: 143,
+    totalTokens: 173,
+    reasoningTokens: 0,
+    cachedInputTokens: 0
+  },
+  providerMetadata: {
+    openai: {
+      responseId: 'resp_079ef7d8c41126a30068fbeddaed3c8197af41653117595563',
+      serviceTier: 'default'
+    }
+  },
+  response: {
+    id: 'resp_079ef7d8c41126a30068fbeddaed3c8197af41653117595563',
+    timestamp: 2025-10-24T21:21:31.000Z,
+    modelId: 'gpt-5-mini-2025-08-07',
+    headers: {
+      'cf-cache-status': 'DYNAMIC',
+      'cf-ray': '993c8637ba8bb876-PDX',
+      connection: 'keep-alive',
+      'content-type': 'text/event-stream; charset=utf-8'
+    }
+  }
+}
+{
+  type: 'finish',
+  finishReason: 'stop',
+  totalUsage: {
+    inputTokens: 30,
+    outputTokens: 143,
+    totalTokens: 173,
+    reasoningTokens: 0,
+    cachedInputTokens: 0
+  }
+}
+⏱️  Request finished in 2.82s
+⏱️  Total duration: 2.83s
+✓ Request completed successfully!
