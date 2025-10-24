@@ -1,10 +1,39 @@
-import { createOpenAI } from "@ai-sdk/openai";
+import { createOpenAI, OpenAIResponsesProviderOptions } from "@ai-sdk/openai";
 import { createHelicone } from "@helicone/ai-sdk-provider";
-import { streamText, tool } from "ai";
+import { streamText } from "ai";
 import dotenv from "dotenv";
-import { z } from "zod";
 
 dotenv.config();
+
+type ModelSettings = NonNullable<Parameters<ReturnType<typeof createHelicone>>[1]>;
+
+export const helicone = createHelicone({
+  apiKey: process.env.HELICONE_API_KEY,
+});
+
+interface GetHeliconeHeadersFromChatContextParams {
+  tags?: string[];
+}
+
+export function getHeliconeModelSettingsFromChatContext({
+  tags,
+}: GetHeliconeHeadersFromChatContextParams): ModelSettings {
+  return {
+    environment: "Development",
+    extraBody: {
+      helicone: {
+        sessionId: crypto.randomUUID(),
+        userId: "-1",
+        tags,
+        properties: {
+          experienceId: "123",
+          projectId: "-1",
+          fromPreview: false,
+        },
+      },
+    },
+  };
+}
 
 async function main(provider: "openai" | "gateway" = "gateway") {
   const gateway = createHelicone({
@@ -15,67 +44,47 @@ async function main(provider: "openai" | "gateway" = "gateway") {
     baseURL: "https://oai.helicone.ai/v1",
     headers: {
       "Helicone-Auth": `Bearer ${process.env.HELICONE_API_KEY}`,
+      // "helicone-stream-usage": "true",
     },
   });
 
-  console.log(`Testing tool calling with ${provider}...\n`);
-
   const model =
-    provider === "openai"
-      ? openai("gpt-4o-mini")
-      : gateway("gpt-4o-mini", {
-          extraBody: {
-            helicone: {
-              sessionId: "tool-calling-demo-" + Date.now(),
-              properties: {
-                example: "tool-calling",
-                feature: "function-tools",
-              },
-              tags: ["tools", "demo"],
-            },
-          },
-        });
+    provider === "openai" ? openai("gpt-5-mini") : gateway("gpt-5-mini", getHeliconeModelSettingsFromChatContext({}));
+
+  const startTime = performance.now();
 
   const result = streamText({
     model,
-    prompt: "What is the weather like in San Francisco?",
-    tools: {
-      weather: tool({
-        description: "Get the weather in a location",
-        inputSchema: z.object({
-          location: z.string().describe("The location to get the weather for"),
-        }),
-        execute: async ({ location }) => ({
-          location,
-          temperature: 72 + Math.floor(Math.random() * 21) - 10,
-        }),
-      }),
+    system: "you are an agent that can answer questions about the weather",
+    messages: [
+      {
+        role: "user",
+        content: "What is the weather like in San Francisco?",
+      },
+    ],
+    providerOptions: {
+      openai: {
+        reasoningEffort: "minimal",
+        reasoningSummary: "auto",
+      } satisfies OpenAIResponsesProviderOptions,
     },
-    maxRetries: 5,
+    onFinish: () => {
+      const endTime = performance.now();
+      const duration = ((endTime - startTime) / 1000).toFixed(2);
+      console.log(`⏱️  Request finished in ${duration}s`);
+    },
   });
 
-  console.log("\n=== Response ===");
-
   for await (const chunk of result.fullStream) {
+    // Process stream silently
     console.log(chunk);
   }
 
-  console.log("\n\n=== Request Info ===");
-  const usage = await result.usage;
-  const finishReason = await result.finishReason;
+  const finalTime = performance.now();
+  const totalDuration = ((finalTime - startTime) / 1000).toFixed(2);
 
-  console.log(`Total tokens: ${usage.totalTokens}`);
-  console.log(`Finish reason: ${finishReason}`);
-
-  if (finishReason === "tool-calls") {
-    console.log("\n✓ Tool calling works! The model requested to use the defined tools.");
-    console.log("Check your Helicone dashboard to see:");
-    console.log("  - Tool definitions sent to the API");
-    console.log("  - Tool calls requested by the model");
-    console.log("  - Session tracking with custom properties and tags");
-  } else {
-    console.log("\n✓ Request completed successfully!");
-  }
+  console.log(`⏱️  Total duration: ${totalDuration}s`);
+  console.log(`✓ Request completed successfully!`);
 }
 
 // Get provider from command line argument, default to gateway

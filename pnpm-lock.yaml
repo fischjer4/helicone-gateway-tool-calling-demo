@@ -12,8 +12,8 @@ importers:
         specifier: 2.0.42
         version: 2.0.42(zod@4.1.12)
       '@helicone/ai-sdk-provider':
-        specifier: ^1.0.2
-        version: 1.0.2(ai@5.0.59(zod@4.1.12))
+        specifier: ^1.0.5
+        version: 1.0.5(ai@5.0.59(zod@4.1.12))
       ai:
         specifier: 5.0.59
         version: 5.0.59(zod@4.1.12)
@@ -214,8 +214,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@helicone/ai-sdk-provider@1.0.2':
-    resolution: {integrity: sha512-/1+RTQFlKzO0mirmx7+EE8mlmrr4JeY7UEF5qL2ABNXMedRnxQk8QZ0dJfiA+ajiQ9oNob2EjKvjB7osACoXPw==}
+  '@helicone/ai-sdk-provider@1.0.5':
+    resolution: {integrity: sha512-Gmp8PD0ukC8+jwQgZ13TWeIkDJkQAWxdWisPTfhvOn/Wya7a5ae9eKkqSB8u/CwIALha5bEYunK+rVeL8/9wqQ==}
     hasBin: true
     peerDependencies:
       ai: ^5.0.0
@@ -382,7 +382,7 @@ snapshots:
   '@esbuild/win32-x64@0.25.11':
     optional: true
 
-  '@helicone/ai-sdk-provider@1.0.2(ai@5.0.59(zod@4.1.12))':
+  '@helicone/ai-sdk-provider@1.0.5(ai@5.0.59(zod@4.1.12))':
     dependencies:
       '@ai-sdk/provider': 2.0.0
       ai: 5.0.59(zod@4.1.12)

@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@ai-sdk/openai": "2.0.42",
-    "@helicone/ai-sdk-provider": "^1.0.2",
+    "@helicone/ai-sdk-provider": "^1.0.5",
     "ai": "5.0.59",
     "dotenv": "^16.4.5",
     "zod": "^4.0.0"
